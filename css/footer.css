@@ -1,6 +1,6 @@
 footer { 
 /*   background: url('../img/pcb-bg-a.jpg'); */
-  background: url('../images/pcb-bg-a.jpg');
+  background-color: #F4F4F4;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -42,7 +42,7 @@ footer > div > div > div:first-child > a {
   float: left;
   font-size: 1em;
   margin: 0 0 10px 0;
-  color: #FFF;
+  color: #393939;
 }
 
 footer > div > div > div:first-child > a:hover {
@@ -75,7 +75,7 @@ footer > div > div > div:first-child + div + div > a.social {
   line-height: 42px;
   border: 1px solid #FFF;
   margin: 0 0 0 10px;
-  color: #FFF;
+  color: #393939;
 }
 
 footer > div > div > div:first-child + div + div > a.social:hover {
@@ -87,7 +87,7 @@ footer > div > div > div:first-child + div + div > strong {
   font-weight: bold;
   display: block;
   margin: 60px 0 10px 0;
-  color: #FFF;
+  color:#393939;
 }
 
 footer > div > div > div:first-child + div + div > span {
@@ -95,7 +95,7 @@ footer > div > div > div:first-child + div + div > span {
   margin: 0 0 10px 0;
   line-height: 1.6em;
   position: relative;
-  color: #FFF;
+  color: #393939;
 }
 
 footer > div > div > div:first-child + div + div > span i, footer > div > div > div:first-child + div + div > a.mail > i {
@@ -111,7 +111,7 @@ footer > div > div > div:first-child + div + div > span i, footer > div > div > 
 footer > div > div > div:first-child + div + div > a {
   display: block;
   position: relative;
-  color: #FFF;
+  color: #393939;
 }
 
 footer > div > div > div:first-child + div + div > a:hover {
@@ -124,7 +124,7 @@ footer > div > div > div:first-child + div + div + div {
   text-align: center;
   padding: 60px 0 40px 0;
   font-size: 0.8em;
-  color: #9FA0A0;
+  color: #6A6A6A;
 }
 
 footer > div > div > div:first-child + div + div + div > span {
@@ -147,7 +147,7 @@ footer > div:first-child + div {
   width: 100%;
   float: left;
   margin: 0 0 60px 0;
-  background-color: #FFF;
+
 }
 
 footer > div:first-child + div > div {

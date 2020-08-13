@@ -23,87 +23,88 @@
   .cards-estrategia .carousel-item-prev {
   transform: translateX(-25%);
   }
+
+  .img-fluid{
+    border-top-left-radius: 0.5em !important;
+    border-top-right-radius: 0.5em !important;
+    border:none !important;
+  }
+  .card{
+    border:none;
+  }
+  .card-border{
+    border-radius: 0.5em;
+    box-shadow: 0px 1px 3px #00000033;
+  }
+  /*.cards-estrategia .carousel-control-prev{
+    width: initial;
+  }*/
+  .cards-estrategia{
+    height: auto !important;
+  }
+  
+  .cards-estrategia .card-item{
+    height: 25em;
+  }
+  
+  /*.cards-estrategia  .carousel-item.active{
+    margin-left: 10%;
+  }*/
+  .card-prev {
+    width: 24px !important;
+   }
+   .card-next {
+    width: 24px !important;
+   }
+  
+   
+  .card-prev-icon {
+    background-image: url("../icons/keyboard_arrow_left-24px.svg") !important;
+   }
+   
+   .card-next-icon {
+     background-image: url("../icons/keyboard_arrow_right-24px.svg") !important;
+   }
+  
+   .cards-title-black{
+    font: 1.5em Ubuntu !important;
+    letter-spacing: 0.1em;
+  
+   }
+   .cards-title-morado{
+    font: 1.5em Ubuntu !important;
+    letter-spacing: 0.1em;
+    color: #5B296E;
+  
+   }
+   .card-title{
+    font: 1.25em Roboto;
+    letter-spacing: 0.01em;
+  }
+  .card-text{
+    font: .8em Roboto;
+    letter-spacing: 0.01em;
+  }
+  .card-link{
+    color:#5B296E;
+    text-align: center;
+    opacity: 1;
+    font: .8em Roboto;
+    letter-spacing: .07em;
+    float: right;
+  
+  }
+  .card-body{
+    padding-left: 1em !important;
+  }
+  
+  .mx-auto {
+    margin-right: 10% !important;
+    margin-left: 10% !important;
+    overflow-x: hidden !important;
+  }
 }
 .cards-estrategia .carousel-item-right,
 .cards-estrategia .carousel-item-left{ 
 transform: translateX(0);
-}
-.img-fluid{
-  border-top-left-radius: 0.5em !important;
-  border-top-right-radius: 0.5em !important;
-  border:none !important;
-}
-.card{
-  border:none;
-}
-.card-border{
-  border-radius: 0.5em;
-  box-shadow: 0px 1px 3px #00000033;
-}
-/*.cards-estrategia .carousel-control-prev{
-  width: initial;
-}*/
-.cards-estrategia{
-  height: auto !important;
-}
-
-.cards-estrategia .card-item{
-  height: 25em;
-}
-
-/*.cards-estrategia  .carousel-item.active{
-  margin-left: 10%;
-}*/
-.card-prev {
-  width: 24px !important;
- }
- .card-next {
-  width: 24px !important;
- }
-
- 
-.card-prev-icon {
-  background-image: url("../icons/keyboard_arrow_left-24px.svg") !important;
- }
- 
- .card-next-icon {
-   background-image: url("../icons/keyboard_arrow_right-24px.svg") !important;
- }
-
- .cards-title-black{
-  font: 1.5em Ubuntu !important;
-  letter-spacing: 0.1em;
-
- }
- .cards-title-morado{
-  font: 1.5em Ubuntu !important;
-  letter-spacing: 0.1em;
-  color: #5B296E;
-
- }
- .card-title{
-  font: 1.25em Roboto;
-  letter-spacing: 0.01em;
-}
-.card-text{
-  font: .8em Roboto;
-  letter-spacing: 0.01em;
-}
-.card-link{
-  color:#5B296E;
-  text-align: center;
-  opacity: 1;
-  font: .8em Roboto;
-  letter-spacing: .07em;
-  float: right;
-
-}
-.card-body{
-  padding-left: 1em !important;
-}
-
-.mx-auto {
-  margin-right: 10% !important;
-  margin-left: 10% !important;
-  overflow-x: hidden !important;
 }

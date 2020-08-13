@@ -9,13 +9,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/cards.css"/>
-	<link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
     <script src="js/lib.js" ></script>
 
 </head>
 <body>
+    <div class="container-fluid">
 	<nav id="menu1" class="navbar navbar-expand-lg navbar-light fixed-top" > 
 			<a class="navbar-brand" href="#">
 				<img id="logo" src="images/logo-nav.png" alt="">
@@ -43,7 +46,7 @@
 			</ul>
 			</div>
       </nav>
-	<div id="carouselPortada" class="carousel slide" data-ride="carousel">
+	<div id="carouselPortada" class="row carousel slide" data-ride="carousel">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carouselPortada" data-slide-to="0" class="active"></li>
 	    <li data-target="#carouselPortada" data-slide-to="1"></li>
@@ -90,29 +93,28 @@
 	    <span class="sr-only">Next</span>
 	  </a>
 	</div>
-
-	<div class="pcb-box3" style="margin-top: 5%;">
-        <div class="contentBox">
-            <div>
-                <div>
+    
+    <div class="row pcb-box3" >
+        <div class="col-12 contentBox">
+            
                     <h2>Conoce qué estilo de inversionista tienes.</h2>
                     <p>
                         Todos somos diferentes, por eso es importante conocer tu etapa
                         <br />de vida y objetivos financieros para comenzar a invertir.
                     </p>
                     <a href="test.html">Conoce tu estilo</a>
-                </div>
-            </div>
         </div>
     </div>
-
-    <div class="cards-carousel">
-        <div class="text-center">
+    <div class="row">
+        <div class="col-12 text-center">
             <span class="cards-title-morado">Los productos </span>
             <span class="cards-title-black">que tenemos para ti</span>
         </div>
-        <br>
-        <br>
+    </div>
+    <br>
+    <br>
+    <div class="cards-carousel">
+        
         <div class="row mx-auto my-auto">
             <div id="recipeCarousel" class="carousel estrategias slide w-100" data-ride="carousel">
                 <div class="carousel-inner cards-estrategia w-100" role="listbox">
@@ -210,10 +212,27 @@
             </div>
         </div>
     </div>
-
+    </div>
     <br>
     <br>
-	<div id="pqInvertir" class="contentBox">
+    
+    <div class="row contactanos">
+        <div class="col-6">
+            <h1>Conoce nuestras estrategias de la inversión</h1>
+            <h3>Déjanos tu correo y te contactaremos</h3>
+        </div>
+        <div class="col-4 contactanos-form">
+            <input type="email" class="form-control" id="emailInvertir" placeholder="Correo electrónico">
+        </div>
+        <div class="col-2 contactanos-form">
+            <button type="submit" class="btn">Enviar</button>	
+        </div>
+    
+    </div>
+    <br>
+    <br>
+    
+	<div id="pqInvertir" class="row contentBox">
         <div>
             <div class="pcb-box2">
                 <img src="./images/businessmen.jpg" alt="" />
@@ -243,7 +262,7 @@
         </div>
     </div>
 
-    <div class="pcb-box6">
+    <div class="row pcb-box6">
         <div class="contentBox">
             <div>
                 <div>
@@ -269,8 +288,9 @@
             </div>
         </div>
 	</div>
-</div>
-	<div class="contentBox pcb-box5" >
+
+    
+	<div class="row contentBox pcb-box5" >
         <div>
             <div>
                 <h2>Consejos y finanzas personales</h2>
@@ -686,78 +706,78 @@
             </div>
         </div>
     </div>
-    </div>
 
-    <footer>
+</div>
+<footer>
+    <div>
         <div>
             <div>
-                <div>
-                    <img src="portal/icons/logo-pcb-mono.svg" width="150" alt="Punto Casa de Bolsa" />
-                    <br />
-                    <a href="index.html">Inicio</a>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/banca-de-inversion.jsp">Banca de Inversión</a>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/nosotros.jsp">Nosotros</a>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/promocion-institucional.jsp">
-                        Promoción
-                        Institucional
-                    </a>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/contacto.jsp">Contacto</a>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/regulaciones.jsp">Regulaciones</a>
-                </div>
-                <div>
-                    <img src="portal/icons/pcb-ctpdv.svg" alt="Cambia tu punto de vista" />
-                </div>
-                <div>
-                    <a href="https://twitter.com/PuntoCasaBolsa" class="social">
-                        <i class="fab fa-twitter" style="position: relative; top: 11px;"></i>
-                    </a>
-                    <a href="https://www.facebook.com/PuntoCasaDeBolsa" class="social">
-                        <i class="fab fa-facebook-f" style="position: relative; top: 11px;"></i>
-                    </a>
-                    <br />
-                    <strong>Escríbenos</strong>
-                    <span>
-                        <i class="fas fa-phone"></i>
-                        +52 (55) 544723000
-                    </span>
-                    <span>
-                        <i class="fas fa-map-marker-alt"></i>
-                        Insurgentes sur 3579, T2-P4
-                        <br /> Col. Tlalpan La Joya
-                        <br /> México, D.F. C.P. 14000
-                    </span>
-                    <br />
-                    <a href="mailto:contacto@puntocasadebolsa.mx" class="mail">
-                        <i class="far fa-envelope"></i>
-                        contacto@puntocasadebolsa.mx
-                    </a>
-                </div>
-                <div>
-                    <span>ID:PBC-2</span>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/aviso-de-privacidad.jsp">Aviso de privacidad</a>
-                    <strong>|</strong>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/terminos-y-condiciones.jsp">
-                        Términos y
-                        condiciones
-                    </a>
-                    <strong>|</strong>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/avisos.jsp">Avisos</a>
-                </div>
+                <img src="images/logo-nav-sticky.png" width="150" alt="Punto Casa de Bolsa" />
+                <br />
+                <a href="index.html">Inicio</a>
+                <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/banca-de-inversion.jsp">Banca de Inversión</a>
+                <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/nosotros.jsp">Nosotros</a>
+                <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/promocion-institucional.jsp">
+                    Promoción
+                    Institucional
+                </a>
+                <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/contacto.jsp">Contacto</a>
+                <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/regulaciones.jsp">Regulaciones</a>
+            </div>
+            <div>
+                <img src="portal/icons/pcb-ctpdv.svg" alt="Cambia tu punto de vista" />
+            </div>
+            <div>
+                <a href="https://twitter.com/PuntoCasaBolsa" class="social">
+                    <img src="images/redes/twitter.png" style="position: relative; top: 11px;"></i>
+                </a>
+                <a href="https://www.facebook.com/PuntoCasaDeBolsa" class="social">
+                    <img src="images/redes/facebook.png" style="position: relative; top: 11px;"></i>
+                </a>
+                <br />
+                <strong>Escríbenos</strong>
+                <span>
+                    <i class="fas fa-phone"></i>
+                    +52 (55) 544723000
+                </span>
+                <span>
+                    <i class="fas fa-map-marker-alt"></i>
+                    Insurgentes sur 3579, T2-P4
+                    <br /> Col. Tlalpan La Joya
+                    <br /> México, D.F. C.P. 14000
+                </span>
+                <br />
+                <a href="mailto:contacto@puntocasadebolsa.mx" class="mail">
+                    <i class="far fa-envelope"></i>
+                    contacto@puntocasadebolsa.mx
+                </a>
+            </div>
+            <div>
+                <span>ID:PBC-2</span>
+                <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/aviso-de-privacidad.jsp">Aviso de privacidad</a>
+                <strong>|</strong>
+                <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/terminos-y-condiciones.jsp">
+                    Términos y
+                    condiciones
+                </a>
+                <strong>|</strong>
+                <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/avisos.jsp">Avisos</a>
             </div>
         </div>
+    </div>
+    <div>
         <div>
-            <div>
-                <img src="portal/images/footer/buro.jpg" alt="" />
-                <img src="portal/images/footer/Norton-Secured.png" alt="" />
-                <img src="portal/images/footer/03-cnv.jpg" alt="" />
-                <img src="portal/images/footer/04-shcp.jpg" alt="" />
-                <img src="portal/images/footer/05-amib.jpg" alt="" />
-                <img src="portal/images/footer/06-condusef.jpg" alt="" />
-                <img src="portal/images/footer/01_unifim.jpg" alt="" />
-                <img src="portal/images/footer/08-bm.jpg" alt="" />
-                <img src="portal/images/footer/09-bmv.jpg" alt="" />
-            </div>
-        
-    </footer>
+            <img src="portal/images/footer/buro.jpg" alt="" />
+            <img src="portal/images/footer/Norton-Secured.png" alt="" />
+            <img src="portal/images/footer/03-cnv.jpg" alt="" />
+            <img src="portal/images/footer/04-shcp.jpg" alt="" />
+            <img src="portal/images/footer/05-amib.jpg" alt="" />
+            <img src="portal/images/footer/06-condusef.jpg" alt="" />
+            <img src="portal/images/footer/01_unifim.jpg" alt="" />
+            <img src="portal/images/footer/08-bm.jpg" alt="" />
+            <img src="portal/images/footer/09-bmv.jpg" alt="" />
+        </div>
+    </div>
+</footer>
 </body>
 </html>

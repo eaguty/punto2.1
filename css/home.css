@@ -136,8 +136,7 @@
 }
 
 .contentBox>div {
-  width: 1280px;
-  margin: 0 auto 0 auto;
+  width: 100%;
 }
 
 .contentBox>div>div {
@@ -202,22 +201,16 @@
 }
 
 .pcb-box3 {
-  width: 100%;
-  float: left;
-/*   background: url('../img/pcb-bg-b.jpg'); */
+
   background: url('../images/pcb-bg-b.jpg');
-  background-size: cover;
+  background-size: 100% auto;
   background-position: center center;
   background-repeat: no-repeat;
   margin-bottom: 80px;
+  margin-top:5%;
   padding: 40px 0 60px 0;
   text-align: center;
   color: rgba(255, 255, 255, 0.75);
-}
-
-.pcb-box3>div>div>div {
-  padding: 0 20px 0 20px;
-  box-sizing: border-box;
 }
 
 .pcb-box3 h2 {
