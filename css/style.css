@@ -143,8 +143,9 @@
 }
 
 .carousel-content .form-control{
-	display : inline;
+	
 	width: 20%;
+	display : inline-block;
 	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
 	background: #FFFFFF 0% 0% no-repeat padding-box;
 	border: 1px solid #000000;
