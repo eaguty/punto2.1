@@ -133,6 +133,8 @@
   width: 100%;
   float: left;
   margin-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .contentBox>div {

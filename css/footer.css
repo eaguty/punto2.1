@@ -1,10 +1,7 @@
 footer { 
 /*   background: url('../img/pcb-bg-a.jpg'); */
   background-color: #F4F4F4;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin: 50px 0 0 0;
+
 }
 
 footer, footer > div > div {
@@ -19,16 +16,11 @@ footer > div {
 }
 
 footer > div > div {
-  padding: 40px 30px 0px 30px;
   box-sizing: border-box;
 }
 
 footer > div > div > div {
   float: left;
-}
-
-footer > div > div > div:first-child {
-  width: 30%;
 }
 
 footer > div > div > div:first-child > img {
@@ -49,15 +41,8 @@ footer > div > div > div:first-child > a:hover {
   text-decoration: underline;
 }
 
-footer > div > div > div:first-child + div {
-  width: 40%;
-  text-align: center;
-}
 
-footer > div > div > div:first-child + div > img {
-  width: 240px;
-  margin: 50px 0 0 0;
-}
+
 
 footer > div > div > div:first-child + div + div {
   width: 30%;
@@ -143,19 +128,7 @@ footer > div > div > div:first-child + div + div + div > a:hover {
   text-decoration: underline;
 }
 
-footer > div:first-child + div {
-  width: 100%;
-  float: left;
-  margin: 0 0 60px 0;
 
-}
-
-footer > div:first-child + div > div {
-  width: 1280px;
-  float: none;
-  text-align: center;
-  margin: 0 auto 0 auto;
-}
 
 footer > div:first-child + div > div img {
   height: 40px;
@@ -185,7 +158,7 @@ footer > div:first-child + div > div img {
     right: 0px;
     bottom: 60px;
   }
-  footer > div > div > div:first-child + div > img {
+  footer .redes{
     margin-top: 0;
   }
   footer > div > div > div:first-child + div + div {
@@ -272,4 +245,39 @@ footer > div:first-child + div > div img {
     height: 30px;
     margin: 0 10px 20px 10px;
   }
+}
+
+
+footer .logos_footer{
+  width: 100%;
+  float: left;
+  margin: 0 0 60px 0;
+
+}
+
+footer .logos_footer .imagenes {
+  width: 100%;
+  float: none;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+footer .container-footer{
+  width: 100%;
+  margin: 0 auto 0 auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+footer .redes{
+  width: 3.25em;
+  height: auto;
+  /* margin: 50px 0 0 0; */
+}
+
+footer .text_right{
+  text-align: right;
+}
+footer .row{
+  padding-top: 5%;
 }
