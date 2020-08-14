@@ -21,6 +21,7 @@ $(document).ready(function(){
 
     
     changeCssMenu ($(document).scrollTop());
+    
     $(".nav-link").css("color", "#FFFFFF"); 
     $(".navbar-brand").css("color", "#FFFFFF");
     $(window).scroll(function() {

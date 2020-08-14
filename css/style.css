@@ -93,68 +93,217 @@
 	--unnamed-line-spacing-79: 79px;
 	--unnamed-line-spacing-127: 127px;
 	}
-.carousel-content {
-	position: absolute;
-	top: 35%;
-	left: 10%;
-	z-index: 20;
-}
-.carousel-content h1 {
+
+@media only screen and (max-width: 768px) {
+	.carousel-content {
+		position: absolute;
+		top: 20%;
+		left: 10%;
+		z-index: 20;
+	}
+	.carousel-content h1 {
 	
-	width: 55%;
-	font: Bold 2.5em Ubuntu !important;
-	text-align: left;
-	letter-spacing: 0px;
-	color: #FFFFFF;
-	opacity: 1;
-	font-size: 1.7em;
-    line-height: 1.4em;
-    
-    margin-bottom: 1em;
-}
-.carousel-content h2 {
-	width: 55%;
-	text-align: left;
-	font: 1em Ubuntu !important;
-	letter-spacing: 0px;
-	color: #FFFFFF;
-	opacity: 1;
-}
-.carousel-content h3 {
-	width: 55%;
-	text-align: left;
-	font: 1em Ubuntu !important;
-	letter-spacing: 0px;
-	color: #FFFFFF;
-	opacity: 1;
+		width: 100%;
+		font: Bold 2.5em Ubuntu !important;
+		text-align: left;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		opacity: 1;
+		font-size: 1.7em;
+		line-height: 1.4em;
+		
+		margin-bottom: 1em;
+	}
+	.carousel-content h2 {
+		width: 55%;
+		text-align: left;
+		font: 1em Ubuntu !important;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		opacity: 1;
+	}
+	.carousel-content h3 {
+		width: 55%;
+		text-align: left;
+		font: 1em Ubuntu !important;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		opacity: 1;
+	}
+	
+	.carousel-content .btn{
+		display: block;
+		background: var(--morado-punto) 0% 0% no-repeat padding-box;
+		font: 0.75em Ubuntu !important;
+		height: 3.4em;
+		color: #FFFFFF;
+		box-shadow: 0px 1px 3px #00000033;
+		border-radius: 28px;
+		opacity: 1;
+		padding-left: 3em;
+		padding-right: 3em;
+		margin-left: 2em;
+	}
+	
+	.carousel-content .form-control{
+		
+		width: 20%;
+		display : inline-block;
+		background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border: 1px solid #000000;
+		border-radius: 28px;
+		opacity: 0.8;
+		font: Regular 1em Roboto;
+		letter-spacing: 0.01em;
+		
+	}
 }
 
-.carousel-content .btn{
-	background: var(--morado-punto) 0% 0% no-repeat padding-box;
-	font: 0.75em Ubuntu !important;
-	height: 3.4em;
-	color: #FFFFFF;
-	box-shadow: 0px 1px 3px #00000033;
-	border-radius: 28px;
-	opacity: 1;
-	padding-left: 3em;
-	padding-right: 3em;
-	margin-left: 2em;
+/* Celulares */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	.carousel-content {
+		position: absolute;
+		top: 25%;
+		left: 10%;
+		z-index: 20;
+		right: 10%;
+		justify-content: center;
+  		align-items: center;
+	}
+	.carousel-content h1 {
+	
+		width: 100%;
+		text-align: center;
+		font: Bold 2.5em Ubuntu !important;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		opacity: 1;
+		font-size: 1.7em;
+		line-height: 1.4em;
+		margin-bottom: 1em;
+		
+	}
+	.carousel-content h2 {
+		width: 100%;
+		text-align: center;
+		font: 1em Ubuntu !important;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		opacity: 1;
+	}
+	.carousel-content h3 {
+		width: 100%;
+		text-align: center;
+		font: 1em Ubuntu !important;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		opacity: 1;
+	}
+	
+	.carousel-content .btn{
+		display: block;
+		background: var(--morado-punto) 0% 0% no-repeat padding-box;
+		font: 0.75em Ubuntu !important;
+		height: 3.4em;
+		color: #FFFFFF;
+		box-shadow: 0px 1px 3px #00000033;
+		border-radius: 28px;
+		opacity: 1;
+		padding-left: 3em;
+		padding-right: 3em;
+		margin-left: auto;
+  		margin-right: auto;
+	}
+	
+	.carousel-content .form-control{
+		
+		width: 60%;
+		background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border: 1px solid #000000;
+		border-radius: 28px;
+		opacity: 0.8;
+		font: Regular 1em Roboto;
+		letter-spacing: 0.01em;
+		margin-left: auto;
+  		margin-right: auto;
+		
+	}
 }
 
-.carousel-content .form-control{
+
+/* PC LAptop */
+@media only screen
+and (min-width : 1224px) {
+
+	.carousel-content {
+		position: absolute;
+		top: 35%;
+		left: 10%;
+		z-index: 20;
+	}
+	.carousel-content h1 {
 	
-	width: 20%;
-	display : inline-block;
-	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-	background: #FFFFFF 0% 0% no-repeat padding-box;
-	border: 1px solid #000000;
-	border-radius: 28px;
-	opacity: 0.8;
-	font: Regular 1em Roboto;
-	letter-spacing: 0.01em;
+		width: 55%;
+		font: Bold 2.5em Ubuntu !important;
+		text-align: left;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		opacity: 1;
+		font-size: 1.7em;
+		line-height: 1.4em;
+		
+		margin-bottom: 1em;
+	}
+	.carousel-content h2 {
+		width: 55%;
+		text-align: left;
+		font: 1em Ubuntu !important;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		opacity: 1;
+	}
+	.carousel-content h3 {
+		width: 55%;
+		text-align: left;
+		font: 1em Ubuntu !important;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		opacity: 1;
+	}
 	
+	.carousel-content .btn{
+		background: var(--morado-punto) 0% 0% no-repeat padding-box;
+		font: 0.75em Ubuntu !important;
+		height: 3.4em;
+		color: #FFFFFF;
+		box-shadow: 0px 1px 3px #00000033;
+		border-radius: 28px;
+		opacity: 1;
+		padding-left: 3em;
+		padding-right: 3em;
+		margin-left: 2em;
+	}
+	
+	.carousel-content .form-control{
+		
+		width: 20%;
+		display : inline-block;
+		background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border: 1px solid #000000;
+		border-radius: 28px;
+		opacity: 0.8;
+		font: Regular 1em Roboto;
+		letter-spacing: 0.01em;
+		
+	}
 }
+
+
 
 .navbar-brand {
 	margin-left: 5% !important;
