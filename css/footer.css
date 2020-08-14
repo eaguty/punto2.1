@@ -145,7 +145,7 @@ footer > div:first-child + div > div img {
 }
 
 @media only screen and (max-width: 1024px) {
-  footer > div:first-child > div {
+  /*footer > div:first-child > div {
     padding: 40px 30px 180px 30px;
   }
   footer > div > div > div:first-child, footer > div > div > div:first-child + div + div {
@@ -176,14 +176,14 @@ footer > div:first-child + div > div img {
   footer > div > div > div:first-child + div + div + div > span {
     left: 20px;
   }
-}
+}*/
 
 @media only screen and (max-width: 768px) {
   footer > div > div > div:first-child > img {
     display: inline-block;
     margin: 0 0 40px 0;
   }
-  footer > div > div > div:first-child, footer > div > div > div:first-child + div + div {
+  footer > div > div > div:first-child {
     width: 100%;
     text-align: center;
   }
