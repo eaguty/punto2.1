@@ -9,12 +9,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/cards.css"/>
-	<link rel="stylesheet" type="text/css" href="css/home.css" />
-	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
     <script src="js/lib.js" ></script>
 
 </head>
 <body>
+    <div class="container-fluid">
 	<nav id="menu1" class="navbar navbar-expand-lg navbar-light fixed-top" > 
 			<a class="navbar-brand" href="#">
 				<img id="logo" src="images/logo-nav.png" alt="">
@@ -42,11 +46,14 @@
 			</ul>
 			</div>
       </nav>
-	<div id="carouselPortada" class="carousel slide" data-ride="carousel">
+	<div id="carouselPortada" class="row carousel slide" data-ride="carousel">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carouselPortada" data-slide-to="0" class="active"></li>
 	    <li data-target="#carouselPortada" data-slide-to="1"></li>
-	    <li data-target="#carouselPortada" data-slide-to="2"></li>
+        <li data-target="#carouselPortada" data-slide-to="2"></li>
+        <li data-target="#carouselPortada" data-slide-to="3"></li>
+        <li data-target="#carouselPortada" data-slide-to="4"></li>
+        
 	  </ol>
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
@@ -66,8 +73,8 @@
         <div class="carousel-item">
             <img class="d-block w-100" src="./images/carrusel1.png" alt="First slide">
             <div class="carousel-content">
-              <h1>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</h1>
-              <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h2>
+              <h1>La historia de tu patrimonio puede estar en las mejores manos</h1>
+              <h2>Diversificamos tu capital con el mejor análisis independiente de México para reducir riesgos y buscar los mejores rendimientos</h2>
               <br>
               <h3>Quiero invertir en esta estrategia:</h3>
               <form>
@@ -77,6 +84,50 @@
               </form>
             </div>
         </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./images/carrusel1.png" alt="First slide">
+            <div class="carousel-content">
+              <h1>Mientras el mundo cambia, nuestros principios guían tu patrimonio</h1>
+              <h2>Una estrategia de inversión puede ser tu mejor aliada cuando de tiempos impredecibles y volátiles se trata.</h2>
+              <br>
+              <h3>Quiero invertir en esta estrategia:</h3>
+              <form>
+                  
+                  <input type="email" class="form-control" id="emailInvertir" placeholder="Correo electrónico">
+                  <button type="submit" class="btn">Enviar</button>				
+              </form>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./images/carrusel1.png" alt="First slide">
+            <div class="carousel-content">
+              <h1>Un plan de inversión sofisticado para diferentes personalidades</h1>
+              <h2>Damos un paso más para ofrecerte estrategias estandarizadas con el mejor análisis independiente de México</h2>
+              <br>
+              <h3>Quiero invertir en esta estrategia:</h3>
+              <form>
+                  
+                  <input type="email" class="form-control" id="emailInvertir" placeholder="Correo electrónico">
+                  <button type="submit" class="btn">Enviar</button>				
+              </form>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./images/carrusel1.png" alt="First slide">
+            <div class="carousel-content">
+              <h1>Invierte con nosotros y naveguemos juntos hacia el futuro</h1>
+              <h2>Ofrecemos análisis preciso y oportuno con un servicio de calidad para guiar tu patrimonio hacia el mejor destino.</h2>
+              <br>
+              <h3>Quiero invertir en esta estrategia:</h3>
+              <form>
+                  
+                  <input type="email" class="form-control" id="emailInvertir" placeholder="Correo electrónico">
+                  <button type="submit" class="btn">Enviar</button>				
+              </form>
+            </div>
+        </div>
+        
+        
         
 	    
 	  </div>
@@ -89,89 +140,311 @@
 	    <span class="sr-only">Next</span>
 	  </a>
 	</div>
-
-	<div class="pcb-box3" style="margin-top: 5%;">
-        <div class="contentBox">
-            <div>
-                <div>
+    
+    <div class="row pcb-box3" >
+        <div class="col-12 contentBox">
+            
                     <h2>Conoce qué estilo de inversionista tienes.</h2>
                     <p>
                         Todos somos diferentes, por eso es importante conocer tu etapa
                         <br />de vida y objetivos financieros para comenzar a invertir.
                     </p>
                     <a href="test.html">Conoce tu estilo</a>
-                </div>
-            </div>
         </div>
-	</div>
-    <div class="container text-center my-4">
-        <h2 class="font-weight-light">Bootstrap 4 - Multi Item Carousel</h2>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <span class="cards-title-morado">Los productos </span>
+            <span class="cards-title-black">que tenemos para ti</span>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="cards-carousel">
+        
         <div class="row mx-auto my-auto">
             <div id="recipeCarousel" class="carousel estrategias slide w-100" data-ride="carousel">
                 <div class="carousel-inner cards-estrategia w-100" role="listbox">
                     <div class="carousel-item active">
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img class="img-fluid" src="http://placehold.it/380?text=1">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/diario-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/iconos_carrusel/diario-1x.png"/><h4 class="card-title">Punto Diario</h4>
+                                    <p class="card-text">Liquidez diaria que ofrece rendimientos más atractivos que una cuenta de ahorro.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Punto Oriental</h4>
-                                <p class="card-text">Amplía tus horizontes con sólidas oportunidades de inversión en Asia y el Pacífico Oriental.</p>
-                                <a href="#">Ver más</a>
-                              </div>
                         </div>
+                        
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/corp-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Punto Corp</h4>
+                                    <p class="card-text">Diversifica y crece tu patrimonio a través de un portafolio con bonos corporativos que ofrece pagos periódicos.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/basico-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Punto Básico</h4>
+                                    <p class="card-text">Una estrategia accesible que te permite dar tus primeros pasos en el mundo de las inversiones.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/defensivo-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Punto Defensivo</h4>
+                                    <p class="card-text">Portafolio de acciones que protege tu patrimonio ante escenarios de alta volatilidad.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/mexico-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Punto México</h4>
+                                    <p class="card-text">Invierte en las empresas que son el orgullo de México y crece con ellas.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                     <div class="carousel-item">
-                        <div class="col-md-3">
-                            <div class="card card-body">
-                                <img class="img-fluid" src="http://placehold.it/380?text=2">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/rentable-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Punto Rentable</h4>
+                                    <p class="card-text">Invierte en las empresas con la mayor rentabilidad intrínseca del mercado.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
                             </div>
                         </div>
+                        
                     </div>
                     <div class="carousel-item">
-                        <div class="col-md-3">
-                            <div class="card card-body">
-                                <img class="img-fluid" src="http://placehold.it/380?text=3">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/trends-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Consumer Trends</h4>
+                                    <p class="card-text">Oportunidades de inversión que sólo se presentan una o dos veces al año.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
                             </div>
                         </div>
+                        
                     </div>
                     <div class="carousel-item">
-                        <div class="col-md-3">
-                            <div class="card card-body">
-                                <img class="img-fluid" src="http://placehold.it/380?text=4">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/energia-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Punto Energía</h4>
+                                    <p class="card-text">La energía mueve el mundo; deja que también mueva tu patrimonio.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
                             </div>
                         </div>
+                        
                     </div>
                     <div class="carousel-item">
-                        <div class="col-md-3">
-                            <div class="card card-body">
-                                <img class="img-fluid" src="http://placehold.it/380?text=5">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/pharma-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Punto Pharma & Bienestar</h4>
+                                    <p class="card-text">El bienestar y la salud integrados en una estrategia de inversión con altas oportunidades de crecimiento, sustentadas en la demografía mundial.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
                             </div>
                         </div>
+                        
                     </div>
                     <div class="carousel-item">
-                        <div class="col-md-3">
-                            <div class="card card-body">
-                                <img class="img-fluid" src="http://placehold.it/380?text=6">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/fibras-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Punto Fibras & Reit's</h4>
+                                    <p class="card-text">Obtén beneficios constantes de los mejores activos inmobiliarios de México y el mundo.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
                             </div>
                         </div>
+                        
                     </div>
-                </div>
-                <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                    <div class="carousel-item">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/oriental-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Punto Oriental</h4>
+                                    <p class="card-text">Amplía tus horizontes con sólidas oportunidades de inversión en Asia y el Pacífico Oriental.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/tech-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Punto Tech</h4>
+                                    <p class="card-text">Invierte en un portafolio enfocado en algunas de las grandes revoluciones tecnológicas del siglo XXI: robótica, inteligencia artificial y automatización de procesos.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/digital-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Punto Digital</h4>
+                                    <p class="card-text">Nuevas tendencias de  telecomunicaciones en una estrategia con alto potencial: internet de las cosas, servicios en la nube y redes 5G.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/conecta-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Punto Conecta</h4>
+                                    <p class="card-text">Un portafolio de inversión enfocado en tres sectores que cambian el mundo desde la red: el home office, la educación y el entretenimiento digitales.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/ecommerce-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Punto E-commerce</h4>
+                                    <p class="card-text">Invierte en algunas de las industrias con mayor potencial: el comercio electrónico, los servicios de pago y la logística.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 card-item">
+                            <div class="card-border">
+                                <div class="card">
+                                    <img class="img-top" src="images/home/flagship-carrusel.jpg">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Punto FlagShip</h4>
+                                    <p class="card-text">Nuestro portafolio insignia: compuesto de las mejores opciones de inversión de todas nuestras estrategias.</p>
+                                    <a class="card-link" href="#">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                    
+                    
+                <a class="carousel-control-prev card-prev" href="#recipeCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon card-prev-icon" aria-hidden="true"> </span>
                     <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                  </a>
+                  <a class="carousel-control-next card-next" href="#recipeCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon card-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
-                </a>
+                  </a>
             </div>
         </div>
-        <h5 class="mt-2">Advances one slide at a time</h5>
     </div>
-
-
-	<div id="pqInvertir" class="contentBox">
+    </div>
+    <br>
+    <br>
+    
+    <div class="row contactanos">
+        <div class="col-6">
+            <h1>Conoce nuestras estrategias de la inversión</h1>
+            <h3>Déjanos tu correo y te contactaremos</h3>
+        </div>
+        <div class="col-4 contactanos-form">
+            <input type="email" class="form-control" id="emailInvertir" placeholder="Correo electrónico">
+        </div>
+        <div class="col-2 contactanos-form">
+            <button type="submit" class="btn">Enviar</button>	
+        </div>
+    
+    </div>
+    <br>
+    <br>
+    
+	<div id="pqInvertir" class="row contentBox">
         <div>
             <div class="pcb-box2">
                 <img src="./images/businessmen.jpg" alt="" />
@@ -201,7 +474,7 @@
         </div>
     </div>
 
-    <div class="pcb-box6">
+    <div class="row pcb-box6">
         <div class="contentBox">
             <div>
                 <div>
@@ -227,8 +500,9 @@
             </div>
         </div>
 	</div>
-	
-	<div class="contentBox pcb-box5" >
+
+    
+	<div class="row contentBox pcb-box5" >
         <div>
             <div>
                 <h2>Consejos y finanzas personales</h2>
@@ -644,78 +918,55 @@
             </div>
         </div>
     </div>
+
+</div>
+<footer>
+    <div class="container-footer">
+        <div class="row">
+            <div class="col-6">
+                <img  src="images/logo-nav-sticky.png"/>
+            </div>
+            <div class="col-6 text_right">
+                <img class="redes" src="images/redes/facebook.png"/>
+                <img src="images/redes/twitter.png"/>
+            </div>
+        </div>
+        <div class="row links">
+            <div class="col-4">
+                <p><a href="#">Nosotros</a></p>
+                <p><a href="#">Banca de Inversión</a></p>
+                <p><a href="#">Promoción Institucional</a></p>
+                <p><a href="#">Regulaciones</a></p>
+            </div>
+            <div class="col-4 links">
+                <p><a href="#">Productos</a></p>
+                <p><a href="#">Blog</a></p>
+                <p><a href="#">Sitio Corporativo</a></p>
+                <p><a href="#">Contacto</a></p>
+            </div>
+            <div class="col-4">
+                <p><span>(55) 544723000</span></p>
+                <p><span>Insurgentes sur 3579, T2P4 Col. Tlalpan La Joya, CDMX, México, C.P. 14000</span></p>
+                <p><span>contacto@puntocasadebolsa.mx</span>
+            </div>
+
+        </div>
+        
+
     </div>
-    <footer>
-        <div>
-            <div>
-                <div>
-                    <img src="portal/icons/logo-pcb-mono.svg" width="150" alt="Punto Casa de Bolsa" />
-                    <br />
-                    <a href="index.html">Inicio</a>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/banca-de-inversion.jsp">Banca de Inversión</a>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/nosotros.jsp">Nosotros</a>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/promocion-institucional.jsp">
-                        Promoción
-                        Institucional
-                    </a>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/contacto.jsp">Contacto</a>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/regulaciones.jsp">Regulaciones</a>
-                </div>
-                <div>
-                    <img src="portal/icons/pcb-ctpdv.svg" alt="Cambia tu punto de vista" />
-                </div>
-                <div>
-                    <a href="https://twitter.com/PuntoCasaBolsa" class="social">
-                        <i class="fab fa-twitter" style="position: relative; top: 11px;"></i>
-                    </a>
-                    <a href="https://www.facebook.com/PuntoCasaDeBolsa" class="social">
-                        <i class="fab fa-facebook-f" style="position: relative; top: 11px;"></i>
-                    </a>
-                    <br />
-                    <strong>Escríbenos</strong>
-                    <span>
-                        <i class="fas fa-phone"></i>
-                        +52 (55) 544723000
-                    </span>
-                    <span>
-                        <i class="fas fa-map-marker-alt"></i>
-                        Insurgentes sur 3579, T2-P4
-                        <br /> Col. Tlalpan La Joya
-                        <br /> México, D.F. C.P. 14000
-                    </span>
-                    <br />
-                    <a href="mailto:contacto@puntocasadebolsa.mx" class="mail">
-                        <i class="far fa-envelope"></i>
-                        contacto@puntocasadebolsa.mx
-                    </a>
-                </div>
-                <div>
-                    <span>ID:PBC-2</span>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/aviso-de-privacidad.jsp">Aviso de privacidad</a>
-                    <strong>|</strong>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/terminos-y-condiciones.jsp">
-                        Términos y
-                        condiciones
-                    </a>
-                    <strong>|</strong>
-                    <a href="https://www.puntocasadebolsa.mx/Portal/publicoNuevo/avisos.jsp">Avisos</a>
-                </div>
-            </div>
+    <div class="row logos_footer">
+        <div class="imagenes">
+            <img src="images/footer/01-buro.png" alt="" />
+            <img src="images/footer/02-norton.png" alt="" />
+            <img src="images/footer/03-cnbv.png" alt="" />
+            <img src="images/footer/04-shcp.png" alt="" />
+            <img src="images/footer/05-amib.png" alt="" />
+            <img src="images/footer/06-condusef.png" alt="" />
+            <img src="images/footer/07-unifimex.png" alt="" />
+            <img src="images/footer/08-bm.png" alt="" />
+            <img src="images/footer/09-bmv.png" alt="" />
         </div>
-        <div>
-            <div>
-                <img src="portal/images/footer/buro.jpg" alt="" />
-                <img src="portal/images/footer/Norton-Secured.png" alt="" />
-                <img src="portal/images/footer/03-cnv.jpg" alt="" />
-                <img src="portal/images/footer/04-shcp.jpg" alt="" />
-                <img src="portal/images/footer/05-amib.jpg" alt="" />
-                <img src="portal/images/footer/06-condusef.jpg" alt="" />
-                <img src="portal/images/footer/01_unifim.jpg" alt="" />
-                <img src="portal/images/footer/08-bm.jpg" alt="" />
-                <img src="portal/images/footer/09-bmv.jpg" alt="" />
-            </div>
-        </div>
-    </footer>
-    <script src="/tracker/PuntoTracker.js" crossorigin="anonymous"></script> <!-- Facebook Pixel Code --><script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.applyn,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElemente);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init', '289650925624125');fbq('track', 'PageView');</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=289650925624125&ev=PageView&noscript=1"/></noscript><!-- End Facebook Pixel Code -->
+    </div>
+</footer>
 </body>
 </html>
