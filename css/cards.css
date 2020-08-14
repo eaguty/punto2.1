@@ -80,10 +80,13 @@
    .card-title{
     font: 1.25em Roboto;
     letter-spacing: 0.01em;
+    display: inline;
+    padding-left:.5em
   }
   .card-text{
     font: .8em Roboto;
     letter-spacing: 0.01em;
+    padding-top:0.5em
   }
   .card-link{
     color:#5B296E;
@@ -96,6 +99,11 @@
   }
   .card-body{
     padding-left: 1em !important;
+    height: 11em;
+  }
+  .card-body img{
+    width: 1.2em;
+    height: 1.25em;
   }
   
   .mx-auto {

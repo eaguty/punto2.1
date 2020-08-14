@@ -244,3 +244,11 @@
 	padding-right: 15%;
 	height: auto;
 }
+
+.links a{
+	text-align: left;
+	font: 1.25em  Ubuntu;
+	letter-spacing: 0px;
+	color: #393939;
+	opacity: 1;
+}
