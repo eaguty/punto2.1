@@ -98,8 +98,15 @@
 
 /* Celulares */
 @media only screen
+<<<<<<< HEAD
 and (min-width : 320px)
 and (max-width : 1024px) {
+=======
+and (min-device-width : 320px)
+and (max-device-width : 480px) 
+and (max-device-width : 1024px)
+and (max-device-width: 769px) {
+>>>>>>> 5735fca2b200a9848af3a6f25fc408238dabd6c8
 	.carousel-content {
 		position: absolute;
 		top: 25%;

@@ -1,0 +1,73 @@
+.masterhead {
+    height: 42em;
+    background-image: url('../images/plecas-estrategias/corp.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: 100% auto;*/
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.block2 {
+    padding-left: 10%;
+}
+.header-content h1 {
+	
+    font: Bold 3.5em Ubuntu !important;
+    letter-spacing: 0px;
+    color: #6CF3B2;
+    opacity: 1;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+    
+}
+
+.header-content h2 {
+	
+    font: Bold 1.5em Ubuntu !important;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+    
+}
+
+.header-content p {
+    font: 1em Ubuntu !important;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.header-content .btn{
+    background: var(--morado-punto) 0% 0% no-repeat padding-box;
+    font: 0.75em Ubuntu !important;
+    height: 3.4em;
+    color: #FFFFFF;
+    box-shadow: 0px 1px 3px #00000033;
+    border-radius: 28px;
+    opacity: 1;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+
+.header-content .form-control{
+		
+    width: 60%;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #000000;
+    border-radius: 28px;
+    opacity: 0.8;
+    font: Regular 1em Roboto;
+    letter-spacing: 0.01em;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    
+}
