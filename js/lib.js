@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('#recipeCarousel').carousel();
+    /*$('#recipeCarousel').carousel();
     
     $('.estrategias .carousel-item').each(function(){
             var minPerSlide = 4;
@@ -18,7 +18,7 @@ $(document).ready(function(){
                 next.children(':first-child').clone().appendTo($(this));
             }
     });
-
+*/
     
     changeCssMenu ($(document).scrollTop());
     

@@ -1,0 +1,109 @@
+@media only screen
+and (max-width : 1023px){
+    .estrategias .card{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .estrategias .card .img-top{
+        height: 25em;
+    }
+}
+
+@media only screen
+and (min-width : 1024px){
+  .estrategias.carousel-inner .active,
+  .estrategias.carousel-inner .active+.carousel-item,
+  .estrategias.carousel-inner .active+.carousel-item+.carousel-item,
+  .estrategias.carousel-inner .active+.carousel-item+.carousel-item+.carousel-item {
+    display: block;
+  }
+  .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
+  .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item,
+  .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item+.carousel-item {
+    -webkit-transition: none;
+    transition: none;
+  }
+  .estrategias.carousel-inner .carousel-item-next,
+  .estrategias.carousel-inner .carousel-item-prev {
+    position: relative;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .estrategias.carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+    position: absolute;
+    top: 0;
+    right: -33.3333%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+  /* left or forward direction */
+  .estrategias .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+  .estrategias .carousel-item-next.carousel-item-left+.carousel-item,
+  .estrategias .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
+  .estrategias .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
+    position: relative;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+  /* farthest right hidden item must be abso position for animations */
+  .estrategias.carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+  /* right or prev direction */
+  .estrategias .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+  .estrategias .carousel-item-prev.carousel-item-right+.carousel-item,
+  .estrategias .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
+  .estrategias .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
+    position: relative;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+  }
+}
+
+.card-title{
+    font: 1.25em Roboto;
+    letter-spacing: 0.01em;
+  }
+
+
+  .cards-title-black{
+    font: 1.5em Ubuntu !important;
+    letter-spacing: 0.1em;
+  
+   }
+   .cards-title-morado{
+    font: 1.5em Ubuntu !important;
+    letter-spacing: 0.1em;
+    color: #5B296E;
+  
+   }
+  .card-text{
+    font: .8em Roboto;
+    letter-spacing: 0.01em;
+    padding-top:0.5em
+  }
+  .card-link{
+    color:#5B296E;
+    text-align: center;
+    opacity: 1;
+    font: .8em Roboto;
+    letter-spacing: .07em;
+    float: right;
+  
+  }
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; } /* Default */
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
