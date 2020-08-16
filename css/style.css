@@ -320,7 +320,7 @@ and (min-width:992px){
 
 @media only screen
 and (min-width : 320px)
-and (max-width : 1024px){
+and (max-width : 1200px){
 	.contactanos h1{
 		text-align: center;
 		font: 1.25em Ubuntu;
@@ -360,7 +360,7 @@ and (max-width : 1024px){
 }
 
 @media only screen
-and (min-width:1025px){
+and (min-width:1200px){
 	.contactanos h1{
 		text-align: left;
 		font: 1.25em Ubuntu;
