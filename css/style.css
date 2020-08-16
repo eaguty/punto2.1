@@ -94,169 +94,203 @@
 	--unnamed-line-spacing-127: 127px;
 	}
 
+.carousel-content {
+	position: absolute;
+	top: 35%;
+	left: 10%;
+	z-index: 20;
+}
+.carousel-content h1 {
+	color: #FFFFFF;
+	opacity: 1;
+	line-height: 1.4em;
+	margin-bottom: 1em;
+}
 
+.carousel-content h2 {
+	width: 55%;
+	text-align: left;
+	font: 1em Ubuntu !important;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
 
+.carousel-content h3 {
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.carousel-content .btn{
+	background: var(--morado-punto) 0% 0% no-repeat padding-box;
+	font: 0.75em Ubuntu !important;
+	height: 3.4em;
+	color: #FFFFFF;
+	box-shadow: 0px 1px 3px #00000033;
+	border-radius: 28px;
+	opacity: 1;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.carousel-content .form-control{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #000000;
+	border-radius: 28px;
+	opacity: 0.8;
+	font: Regular 1em Roboto;
+	letter-spacing: 0.01em;
+}
 /* Celulares */
 @media only screen
 and (min-width : 320px)
-and (max-width : 1024px) {
-	.carousel-content {
-		position: absolute;
-		top: 25%;
-		left: 10%;
-		z-index: 20;
-		right: 10%;
-		justify-content: center;
-  		align-items: center;
+and (max-width : 767px) {
+	.carousel-content{
+		left:0%;
+		width: 100%;
 	}
 	.carousel-content h1 {
-	
 		width: 100%;
 		text-align: center;
-		font: Bold 2.5em Ubuntu !important;
+		font: Bold 1.25em Ubuntu !important;
 		letter-spacing: 0px;
-		color: #FFFFFF;
-		opacity: 1;
-		line-height: 1.4em;
-		margin-bottom: 1em;
-		
+		margin:auto;
+		padding-left:5%;
+		padding-right: 5%;
 	}
 	.carousel-content h2 {
-		width: 100%;
-		text-align: center;
-		font: 1em Ubuntu !important;
-		letter-spacing: 0px;
-		color: #FFFFFF;
-		opacity: 1;
+		display:none;
 	}
 	.carousel-content h3 {
 		width: 100%;
 		text-align: center;
 		font: 1em Ubuntu !important;
-		letter-spacing: 0px;
-		color: #FFFFFF;
-		opacity: 1;
 	}
-	
 	.carousel-content .btn{
 		display: block;
-		background: var(--morado-punto) 0% 0% no-repeat padding-box;
-		font: 0.75em Ubuntu !important;
-		height: 3.4em;
-		color: #FFFFFF;
-		box-shadow: 0px 1px 3px #00000033;
-		border-radius: 28px;
-		opacity: 1;
-		padding-left: 3em;
-		padding-right: 3em;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top:3%;  
 	}
-	
 	.carousel-content .form-control{
-		
-		width: 60%;
-		background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-		background: #FFFFFF 0% 0% no-repeat padding-box;
-		border: 1px solid #000000;
-		border-radius: 28px;
-		opacity: 0.8;
-		font: Regular 1em Roboto;
-		letter-spacing: 0.01em;
+		width: 45%;
 		margin-left: auto;
   		margin-right: auto;
-		
 	}
 }
 
+@media only screen
+and (min-width : 768px)
+and (max-width: 1024px){
+	.carousel-content{
+		left:0%;
+		width: 100%;
+	}
+	.carousel-content h1 {
+		width: 100%;
+		text-align: center;
+		font: Bold 1.5em Ubuntu !important;
+		margin:auto;
+		padding-left:5%;
+		padding-right: 5%;
+		
+	}
+	.carousel-content h2 {
+		display: none;
+	}
+	.carousel-content h3 {
+		width: 100%;
+		text-align: center;
+		font: 1em Ubuntu !important;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		opacity: 1;
+	}
+	.carousel-content .btn{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top:3%;  
+	}
+	.carousel-content .form-control{
+		width: 45%;
+		margin-left: auto;
+  		margin-right: auto;
+	}
+
+}
 
 /* PC LAptop */
 @media only screen
 and (min-width : 1025px) {
-
-	.carousel-content {
-		position: absolute;
-		top: 35%;
-		left: 10%;
-		z-index: 20;
-	}
 	.carousel-content h1 {
-	
 		width: 55%;
 		font: Bold 2.5em Ubuntu !important;
 		text-align: left;
 		letter-spacing: 0px;
-		color: #FFFFFF;
-		opacity: 1;
-		line-height: 1.4em;		
-		margin-bottom: 1em;
 	}
-	.carousel-content h2 {
-		width: 55%;
-		text-align: left;
-		font: 1em Ubuntu !important;
-		letter-spacing: 0px;
-		color: #FFFFFF;
-		opacity: 1;
-	}
+	
 	.carousel-content h3 {
 		width: 55%;
 		text-align: left;
 		font: 1em Ubuntu !important;
-		letter-spacing: 0px;
-		color: #FFFFFF;
-		opacity: 1;
 	}
 	
 	.carousel-content .btn{
-		background: var(--morado-punto) 0% 0% no-repeat padding-box;
-		font: 0.75em Ubuntu !important;
-		height: 3.4em;
-		color: #FFFFFF;
-		box-shadow: 0px 1px 3px #00000033;
-		border-radius: 28px;
-		opacity: 1;
-		padding-left: 3em;
-		padding-right: 3em;
 		margin-left: 2em;
 	}
 	
 	.carousel-content .form-control{
-		
 		width: 20%;
 		display : inline-block;
-		background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-		background: #FFFFFF 0% 0% no-repeat padding-box;
-		border: 1px solid #000000;
-		border-radius: 28px;
-		opacity: 0.8;
-		font: Regular 1em Roboto;
-		letter-spacing: 0.01em;
-		
 	}
 }
-
-
 
 .navbar-brand {
 	margin-left: 5% !important;
 }
+/*.navbar-collapse ul {
+	height: 100vh;
+}*/
 
-.navbar {
-	box-shadow: 0 !important;
-	-webkit-box-shadow: 0 !important;
+@media only screen
+and (min-width : 320px)
+and (max-width : 992px){
+	.navbar-nav{
+		background-color: #fff !important;
+		color:#000 !important;
+		border-radius: 1.6em;
+	}
+
+	.nav-link {
+		font-size: 2.5em !important;
+	}
+	.cuenta{
+		background: var(--morado-punto) 0% 0% no-repeat padding-box;
+		box-shadow: 0px 1px 3px #00000033;
+		
+		opacity: 1;
+		color: #fff !important;
+	}
+	
+}
+@media only screen
+and (min-width:993px){
+	.nav-link{
+		font-size: 0.8em !important;
+	}
+	.cuenta{
+		background: var(--morado-punto) 0% 0% no-repeat padding-box;
+		box-shadow: 0px 1px 3px #00000033;
+		border-radius: 1.6em;
+		opacity: 1;
+	}
 }
 
-.cuenta{
-	background: var(--morado-punto) 0% 0% no-repeat padding-box;
-	box-shadow: 0px 1px 3px #00000033;
-	border-radius: 1.6em;
-	opacity: 1;
-}
 
 .nav-link{
-	font-size: 0.8em !important;
+	
 	padding-right: 2em !important;
 	padding-left: 2em !important;
 }
