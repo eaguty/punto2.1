@@ -71,3 +71,17 @@
     display: inline;
     
 }
+
+.menu-lateral .row{
+    margin-left: 20%;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.menu-lateral .row:first-child{
+    padding-top:15%;
+}
+
+.cuerpo{
+    padding-top: 15%;
+}
