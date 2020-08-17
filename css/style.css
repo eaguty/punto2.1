@@ -276,7 +276,6 @@ and (max-width : 991px){
 		color:#000 !important;
 		border-radius: 1.6em;
 	}
-
 	.nav-link {
 		font: 1.5em Ubuntu;
 		letter-spacing: 0.08em;
@@ -286,8 +285,10 @@ and (max-width : 991px){
 	.cuenta{
 		background: var(--morado-punto) 0% 0% no-repeat padding-box;
 		box-shadow: 0px 1px 3px #00000033;
+		border-radius: 1.12em;
 		
-		opacity: 1;
+	}
+	.cuenta a{
 		color: #fff !important;
 	}
 	.navbar-collapse.collapse.show {
