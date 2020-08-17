@@ -1,4 +1,9 @@
 
+.container-fluid{
+    max-width:1920px;
+    margin:auto;
+}
+
 
 .masterhead {
     height: 42em;
@@ -20,6 +25,16 @@
     margin-bottom: 1em;
     
 }
+
+@media only screen
+and(min-width:992px)
+and(max-width:1200px){
+    .header-content h1{
+        margin-top: 50%;
+        margin-bottom: 0px;
+    }
+}
+
 
 .header-content h2 {
 	
@@ -70,16 +85,278 @@
     
 }
 
+.menu-lateral{
+    background-color: #F8F8F8;
+}
 .menu-lateral .row{
-    margin-left: 20%;
-    background: #F8F8F8 0% 0% no-repeat padding-box;
+    
     opacity: 1;
+    padding-bottom: 5%;
+
 }
 
+.cuerpo-main{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
 .menu-lateral .row:first-child{
     padding-top:15%;
 }
+.menu-lateral .row:last-child{
+    padding-bottom:15%;
+}
 
+.menu-lateral a{
+    font: 1.25em Ubuntu;
+    display: inline;
+    vertical-align: middle;
+    padding-left: 5%;
+    color:#6A6A6A;
+}
+.menu-lateral img{
+    height: 1em;
+}
 .cuerpo{
     padding-top: 15%;
 }
+
+.menu-link{
+    padding-left: 20%;
+}
+
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 1200px){
+	.contactanos-estrategia h1{
+		text-align: center;
+		font: 1.25em Ubuntu;
+	}
+	.contactanos-estrategia h3{
+		text-align: center;
+		font: 1em Ubuntu;
+	}
+	.contactanos-estrategia .btn{
+		background: var(--morado-punto) 0% 0% no-repeat padding-box;
+		font: 1.25em Ubuntu !important;
+		height: 80%;
+		width: 30%;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+		box-shadow: 0px 1px 3px #00000033;
+		border-radius: 28px;
+		opacity: 1;
+		display:block;
+		margin-top:3%;
+		margin-left:auto;
+		margin-right: auto;
+	
+	}
+	
+	.contactanos-estrategia .form-control{
+		font-size: 1.25em;
+		width: 50%;
+		height: 80%;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border: 1px solid #000000;
+		border-radius: 28px;
+		opacity: 0.8;
+		margin-top:3%;
+		margin-left:auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen
+and (min-width:1200px){
+	.contactanos-estrategia h1{
+		text-align: left;
+		font: 1.25em Ubuntu;
+	}
+	.contactanos-estrategia h3{
+		text-align: left;
+		font: 1em Ubuntu;
+	}
+	.contactanos-estrategia .btn{
+		background: #5B296E  0% 0% no-repeat padding-box;
+		font: 0.75em Ubuntu !important;
+		height: 80%;
+		width: 9em;
+		color: #FFFFFF;
+		box-shadow: 0px 1px 3px #00000033;
+        border: 1px solid #FFFFFF;
+        border-radius: 28px;
+		margin:auto;
+	
+	}
+	
+	.contactanos-estrategia .form-control{
+		
+		width: 100%;
+		height: 80%;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border: 1px solid #000000;
+		border-radius: 28px;
+		opacity: 0.8;
+		margin:auto;
+	}
+}
+
+.contactanos-estrategia h1{
+	letter-spacing: 0px;
+	color: #ffffff;
+}
+.contactanos-estrategia h3{
+	letter-spacing: 0px;
+	color: #ffffff;
+}
+
+.contactanos-estrategia{
+	background: #5B296E 0% 0% no-repeat padding-box;
+    opacity: 1;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 15%;
+	padding-right: 15%;
+	height: auto;
+	align-items: center;
+}
+
+footer { 
+    background-color: #F4F4F4;
+  }
+
+footer .row{
+    padding-top:5%;
+}
+
+footer .imagenes img{
+    height: 40px;
+    margin: 0 20px 40px 20px;
+}
+
+footer{
+    max-width:1920px;
+    margin:auto;
+}
+
+.navbar{
+    max-width:1920px;
+    margin:auto;
+}
+@media only screen
+and (min-width:320px)
+and (max-width:1024px){
+    .datos-footer p{
+        text-align: center;
+        margin-top: 5%;
+    }
+    footer p{
+        padding-left: 10%;
+    }
+
+}
+
+.cuerpo-title{
+    padding-top:10%;
+}
+.cuerpo-title h1{
+    font: Bold 2em Ubuntu;
+    letter-spacing: 0.05em;
+    color: #5B296E;
+    opacity: 1;
+    text-align: center;
+}
+
+
+.cuerpo-descripcion h2{
+    padding-left: 10%;
+    padding-top:3%;
+    font: 1.25em Ubuntu;
+    letter-spacing: 0px;
+    color: #393939;
+    opacity: 1;
+    text-align: left;
+}
+
+.cuerpo-imagenes{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.cuerpo-imagenes p{
+    display: inline;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #393939;
+    opacity: 1;
+}
+
+.cuerpo-leyenda p{
+    text-align: center;
+    padding-top:10%;
+    padding-bottom: 5%;
+}
+.cuerpo-monto{
+    margin-top:5%;
+}
+.cuerpo-monto p{
+    font: Bold 1.5em Ubuntu;
+    color:#fff;
+    text-align: center;
+    margin-top:1rem;
+}
+.cuerpo-monto .btn-no-event{
+    display: flex;
+    justify-content: center;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+.monto-blue {
+    display: flex;
+    justify-content: center;
+  }
+.btn-no-event {
+    padding: 10px;
+    margin: 10px;
+    background: #22317C 0% 0% no-repeat padding-box;
+    border-radius: 85px;
+    opacity: 1;
+  }
+
+@media only screen
+and (min-width:320px)
+and (max-width:1200px){
+    .contactanos-estrategia h1 {
+        font-size: 2em;
+    }
+    .contactanos-estrategia h3 {
+        font-size: 1.5em;
+    }
+
+    .menu-lateral{
+        display: none;
+    }
+    .cuerpo-imagenes{
+        display: flex;
+        justify-content: left;
+
+    }
+    .cuerpo-imagenes p{
+        font-size: 2em;
+        padding-left:5%
+    }
+    .cuerpo-title h1{
+        font-size: 3em;
+    }
+    .cuerpo-descripcion h2{
+        padding-left: 3%;
+        font-size: 1.5em;
+
+    }
+    .cuerpo-leyenda p{
+        font-size:2em;
+    }
+    
+} 
