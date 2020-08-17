@@ -247,7 +247,9 @@ and (min-width : 1025px) {
 	}
 }
 
-
+.navbar-toggler{
+	background: rgba(91, 41, 110, 3);
+}
 
 .navbar-brand {
 	margin-left: 5% !important;
