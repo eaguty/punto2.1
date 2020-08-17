@@ -347,6 +347,10 @@ and (max-width:1200px){
         font-size: 2em;
         padding-left:5%
     }
+    .cuerpo-imagenes img{
+        height:100%;
+        
+    }
     .cuerpo-title h1{
         font-size: 3em;
     }
