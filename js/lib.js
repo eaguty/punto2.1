@@ -42,7 +42,7 @@ var changeCssMenu = function(scroll, collapse) {
         
         $("#menu1").css("background-color", "#ffffff"); 
         $(".nav-link").css("color", "#6A6A6A");
-        $(".cuenta").css("color", "#ffffff");
+        $(".cuenta .nav-link").css("color", "#ffffff");
         $(".navbar-brand").css("color", "#6A6A6A");
         $("#logo").attr("src","images/logo-nav-sticky.png");
 
