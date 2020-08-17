@@ -247,6 +247,8 @@ and (min-width : 1025px) {
 	}
 }
 
+
+
 .navbar-brand {
 	margin-left: 5% !important;
 }
@@ -254,9 +256,21 @@ and (min-width : 1025px) {
 	height: 100vh;
 }*/
 
+.hidden{
+	display: none;
+}
+#navbar-close img{
+	height: 1.8em;
+	border: none;
+}
+
 @media only screen
 and (min-width : 320px)
 and (max-width : 991px){
+	.nav-item{
+		padding-top:3%;
+		padding-bottom: 1%;
+	}
 	.navbar-nav{
 		background-color: #fff !important;
 		color:#000 !important;
@@ -264,7 +278,10 @@ and (max-width : 991px){
 	}
 
 	.nav-link {
-		font-size: 2.5em !important;
+		font: 1.5em Ubuntu;
+		letter-spacing: 0.08em;
+		color: #6A6A6A;
+		opacity: 1;
 	}
 	.cuenta{
 		background: var(--morado-punto) 0% 0% no-repeat padding-box;
@@ -272,6 +289,12 @@ and (max-width : 991px){
 		
 		opacity: 1;
 		color: #fff !important;
+	}
+	.navbar-collapse.collapse.show {
+		height: 100vh;
+	}
+	.navbar-nav {
+		height: 100vh;
 	}
 	
 }

@@ -1,4 +1,24 @@
 $(document).ready(function(){
+    var collapse = false;
+    $('#menu1').on('show.bs.collapse', function () {
+        $("#menu1").css("background-color", "#ffffff"); 
+        $(".nav-link").css("color", "#6A6A6A");
+        $(".cuenta").css("color", "#ffffff");
+        $(".navbar-brand").css("color", "#6A6A6A");
+        $("#logo").attr("src","images/logo-nav-sticky.png");
+        $(".navbar-toggler-icon").addClass('hidden');
+        $("#navbar-close").removeClass('hidden');
+        collapse=true;
+        
+
+    })
+    $('#menu1').on('hidden.bs.collapse', function () {
+        changeCssMenu ($(document).scrollTop());
+        $(".navbar-toggler-icon").removeClass('hidden');
+        $("#navbar-close").addClass('hidden');
+        collapse=false;
+    })
+      
     changeCssMenu ($(document).scrollTop());
     var windowsize = $(window).width();
         if (windowsize > 991) {
@@ -10,14 +30,14 @@ $(document).ready(function(){
             $(".navbar-brand").css("color", "#6A6A6A");
         }
     $(window).scroll(function() {
-         changeCssMenu ($(document).scrollTop());
+         changeCssMenu ($(document).scrollTop(), collapse);
     });
     $( window ).resize(function() {
-        changeCssMenu ($(document).scrollTop());
-      });
+        changeCssMenu ($(document).scrollTop(), collapse);
+    });
 });
 
-var changeCssMenu = function(scroll) {
+var changeCssMenu = function(scroll, collapse) {
     if(parseInt(scroll) > 50.0) { 
         
         $("#menu1").css("background-color", "#ffffff"); 
@@ -33,14 +53,22 @@ var changeCssMenu = function(scroll) {
             $("#menu1").css("background-color", "transparent");
             $(".nav-link").css("color", "#FFFFFF"); 
             $(".navbar-brand").css("color", "#FFFFFF");
+            $("#logo").attr("src","images/logo-nav.png");
         }
         else{
-            $("#menu1").css("background-color", "transparent");
+            if(collapse){
+                $(".navbar-brand").css("color", "#FFFFFF");
+                $("#logo").attr("src","images/logo-nav-sticky.png");
+            }
+            else{
+                $("#logo").attr("src","images/logo-nav.png");
+                $("#menu1").css("background-color", "transparent");
+            }
+
             $(".nav-link").css("color", "#6A6A6A"); 
             $(".navbar-brand").css("color", "#6A6A6A");
-            
         }
-        $("#logo").attr("src","images/logo-nav.png");
+        
 
     }
 };

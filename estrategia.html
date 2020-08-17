@@ -20,12 +20,17 @@
     
     </head>
 <body>
-    <nav id="menu1" class="navbar navbar-expand-lg navbar-light fixed-top" > 
+    <nav id="menu1" class="navbar navbar-expand-lg navbar-dark fixed-top" > 
         <a class="navbar-brand" href="#">
             <img id="logo" src="images/logo-nav.png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+            <div id="navbar-hamburger">
+                <span class="navbar-toggler-icon"></span>
+            </div>
+            <div id="navbar-close" class="hidden">
+                <span><img src="images/iconos/cancelar.png" alt="cerrar"/></span>
+            </div>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
@@ -49,7 +54,7 @@
     </nav>
     <header class="masterhead">
         <div class="container h-100">
-            <div class="row h-100 align-items-center">
+            <div class="row h-100 align-items-center encabezado">
                 <div class="col-xl-6 col-lg-12 col-sm-12 col-12 header-content">
                     <h1>Punto Corp</h1>
                     <p>Diversifica y crece tu patrimonio a través de un portafolio con bonos corporativos que ofrece pagos periódicos.</p>
