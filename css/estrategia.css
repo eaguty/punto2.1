@@ -402,6 +402,8 @@ and (max-width:1200px){
     }
     .cuerpo-imagenes img{
         height:100%;
+        max-width: 50px;
+        max-height: 50px;
 
     }
     .cuerpo-title h1{
