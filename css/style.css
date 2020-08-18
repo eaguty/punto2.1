@@ -292,7 +292,9 @@ and (max-width : 991px){
 	}
 	.cuenta a{
 		color: #fff !important;
+		
 	}
+	
 	.navbar-collapse.collapse.show {
 		height: 100vh;
 	}
@@ -314,7 +316,12 @@ and (min-width:992px){
 	}
 }
 
-
+#navbarNav button:hover{
+	background-color:#22317C;
+}
+.cuenta a:hover{
+	text-decoration: none;
+}
 .nav-link{
 	
 	padding-right: 2em !important;
@@ -419,7 +426,9 @@ and (min-width:1200px){
 		margin:auto;
 	}
 }
-
+.contactanos .btn:hover{
+	background-color: #22317C;
+}
 .contactanos h1{
 	letter-spacing: 0px;
 	color: #5B296E;

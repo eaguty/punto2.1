@@ -112,6 +112,9 @@ and (min-width:1200px){
     margin-right: auto;
     display: inline;
 }
+.header-content .btn:hover{
+    background-color: #22317C;
+}
 
 .header-content .form-control{
 		
@@ -255,7 +258,9 @@ and (min-width:1200px){
 		margin:auto;
 	}
 }
-
+.contactanos-estrategia .btn:hover{
+    background-color: #22317C;
+}
 .contactanos-estrategia h1{
 	letter-spacing: 0px;
 	color: #ffffff;
