@@ -4,8 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="css/estrategia.css"/>
 </head>
 <body>
-    
+    <h1>HOLA</h1>
+    <button id="productos" class="productsBtn" onclick="openNav()" data-state="off">
+        productos
+    </button>
+    <div id="myNav" class="overlay">
+        <div class="row">
+            <div class="col-6">
+                <a href="#">
+                    <img id="logo" src="images/logo-nav-sticky.png" alt="">
+                </a>
+            </div>
+            <div class="col-6">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            </div>
+        </div>
+        
+        
+        <div class="overlay-content">
+            <div class="row">
+                <div class="col-12">
+                    <img src="images/estrategias/basico.svg"/>
+                    <a href="#">Básico</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+            document.getElementById("productos").style.display = "none";
+
+        }
+        
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+            document.getElementById("productos").style.display = "block";
+        }
+        </script>
 </body>
 </html>

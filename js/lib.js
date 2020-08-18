@@ -37,6 +37,22 @@ $(document).ready(function(){
     });
 });
 
+var openNav = function(){
+    $("#menu1").css("display", "none");
+    $("#myNav").css("display", "flex");
+    $("#myNav").css("height", "100%");
+    $("#btn_productos").css("display", "none");
+
+    
+
+};
+var closeNav = function(){
+    $("#menu1").css("display", "flex");
+    $("#myNav").css("height", "0%");
+    $("myNav").css("display", "none")
+    $(".overlay").css("display", "none")
+    $("#btn_productos").css("display", "block");
+};
 var changeCssMenu = function(scroll, collapse) {
     if(parseInt(scroll) > 50.0) { 
         
