@@ -40,7 +40,7 @@ and (max-width : 992px){
 
 #myNav .container-fluid{
 
-  margin-top:2%;
+  margin-top:0%;
 
 }
 .overlay {
@@ -51,7 +51,7 @@ and (max-width : 992px){
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #F8F8F8;
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -85,6 +85,7 @@ and (max-width : 992px){
     padding-top: 3%;
     padding-bottom: 3%;
     padding-left: 3%;
+    background-color: #fff;
   }
  /* 
   .overlay a:hover, .overlay a:focus {
