@@ -246,7 +246,9 @@ and (min-width : 1025px) {
 		display : inline-block;
 	}
 }
-
+.carousel-content .btn:hover{
+	background-color: #22317C;
+}
 .navbar-toggler{
 	background: rgba(91, 41, 110, 3);
 }
