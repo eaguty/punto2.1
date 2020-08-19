@@ -246,6 +246,18 @@ and (min-width : 1025px) {
 		display : inline-block;
 	}
 }
+
+.carousel-indicators li{
+	width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+	border: 1px solid #6CF3B2;
+	background-color: #ffffff00;
+}
+.carousel-indicators .active {
+	background-color: #6CF3B2;
+}
 .carousel-content .btn:hover{
 	background-color: #22317C;
 }
