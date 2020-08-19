@@ -255,6 +255,10 @@ and (min-width : 1025px) {
 	border: 1px solid #6CF3B2;
 	background-color: #ffffff00;
 }
+.carousel-flecha{
+	align-items: center;
+    display: flex;
+}
 .carousel-indicators .active {
 	background-color: #6CF3B2;
 }
