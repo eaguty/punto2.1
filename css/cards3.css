@@ -1,116 +1,21 @@
-@media only screen
-and (min-width: 320px)
-and (max-width : 767px){
-    .estrategias .card{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    .estrategias .card .img-top{
-        height: 25em;
-    }
-}
-@media only screen
-and (min-width : 768px)
-and (max-width: 991px){
-  .card{
-    max-width: 500px !important;
-    margin: auto;
-  }
-
-}
-
-@media only screen
-and (min-width : 768px)
-and (max-width: 992px){
-  .card{
-    max-width: 400px !important;
-    margin: auto;
-  }
-
-}
-@media only screen
-and (min-width : 1200px){
-  .estrategias.carousel-inner .active,
-  .estrategias.carousel-inner .active+.carousel-item,
-  .estrategias.carousel-inner .active+.carousel-item+.carousel-item,
-  .estrategias.carousel-inner .active+.carousel-item+.carousel-item+.carousel-item,
-  .estrategias.carousel-inner .active+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-    display: block;
-  }
-  .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-  .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
-  .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item,
-  .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item+.carousel-item {
-    -webkit-transition: none;
-    transition: none;
-  }
-  .estrategias.carousel-inner .carousel-item-next,
-  .estrategias.carousel-inner .carousel-item-prev {
-    position: relative;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-  .estrategias.carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-    position: absolute;
-    top: 0;
-    right: -25%;
-    z-index: -1;
-    display: block;
-    visibility: visible;
-  }
-  /* left or forward direction */
-  .estrategias .active.carousel-item-left+.carousel-item-next.carousel-item-left,
-  .estrategias .carousel-item-next.carousel-item-left+.carousel-item,
-  .estrategias .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
-  .estrategias .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item,
-  .estrategias .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-    position: relative;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-    visibility: visible;
-  }
-  /* farthest right hidden item must be abso position for animations */
-  .estrategias.carousel-inner .carousel-item-prev.carousel-item-right {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    display: block;
-    visibility: visible;
-  }
-  /* right or prev direction */
-  .estrategias .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
-  .estrategias .carousel-item-prev.carousel-item-right+.carousel-item,
-  .estrategias .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
-  .estrategias .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item,
-  .estrategias .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-    position: relative;
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-    display: block;
-    visibility: visible;
-  }
-}
-
-@media screen and (min-width: 768px) 
+@media only screen and (min-width: 768px) 
 and (max-width:992px){
-    .carousel-inner .active,
-    .carousel-inner .active+.carousel-item {
+    .estrategias.carousel-inner .active,
+    .estrategias.carousel-inner .active+.carousel-item {
       display: block;
     }
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item {
+    .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item {
       -webkit-transition: none;
       transition: none;
     }
-    .carousel-inner .carousel-item-next,
-    .carousel-inner .carousel-item-prev {
+    .estrategias.carousel-inner .carousel-item-next,
+    .estrategias.carousel-inner .carousel-item-prev {
       position: relative;
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
     }
-    .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+    .estrategias.carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
       position: absolute;
       top: 0;
       right: -50%;
@@ -118,7 +23,6 @@ and (max-width:992px){
       display: block;
       visibility: visible;
     }
-    /* left or forward direction */
     .active.carousel-item-left+.carousel-item-next.carousel-item-left,
     .carousel-item-next.carousel-item-left+.carousel-item {
       position: relative;
@@ -126,8 +30,7 @@ and (max-width:992px){
       transform: translate3d(-100%, 0, 0);
       visibility: visible;
     }
-    /* farthest right hidden item must be abso position for animations */
-    .carousel-inner .carousel-item-prev.carousel-item-right {
+    .estrategias.carousel-inner .carousel-item-prev.carousel-item-right {
       position: absolute;
       top: 0;
       left: 0;
@@ -135,7 +38,6 @@ and (max-width:992px){
       display: block;
       visibility: visible;
     }
-    /* right or prev direction */
     .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
     .carousel-item-prev.carousel-item-right+.carousel-item {
       position: relative;
@@ -147,28 +49,27 @@ and (max-width:992px){
     }
   }
   
-  /* Desktop and up */
   
-  @media screen and (min-width: 992px) 
+  @media only screen and (min-width: 992px) 
   and (max-width:1200px){
-    .carousel-inner .active,
-    .carousel-inner .active+.carousel-item,
-    .carousel-inner .active+.carousel-item+.carousel-item {
+    .estrategias.carousel-inner .active,
+    .estrategias.carousel-inner .active+.carousel-item,
+    .estrategias.carousel-inner .active+.carousel-item+.carousel-item {
       display: block;
     }
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
+    .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
+    .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
       -webkit-transition: none;
       transition: none;
     }
-    .carousel-inner .carousel-item-next,
-    .carousel-inner .carousel-item-prev {
+    .estrategias.carousel-inner .carousel-item-next,
+    .estrategias.carousel-inner .carousel-item-prev {
       position: relative;
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
     }
-    .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+    .estrategias.carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
       position: absolute;
       top: 0;
       right: -33.3333%;
@@ -176,7 +77,6 @@ and (max-width:992px){
       display: block;
       visibility: visible;
     }
-    /* left or forward direction */
     .active.carousel-item-left+.carousel-item-next.carousel-item-left,
     .carousel-item-next.carousel-item-left+.carousel-item,
     .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
@@ -186,8 +86,70 @@ and (max-width:992px){
       transform: translate3d(-100%, 0, 0);
       visibility: visible;
     }
+    .estrategias.carousel-inner .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+    .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right+.carousel-item,
+    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
+    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
+      position: relative;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+    }
+  }
+
+  @media only screen
+  and (min-width : 1200px){
+    .estrategias.carousel-inner .active,
+    .estrategias.carousel-inner .active+.carousel-item,
+    .estrategias.carousel-inner .active+.carousel-item+.carousel-item,
+    .estrategias.carousel-inner .active+.carousel-item+.carousel-item+.carousel-item,
+    .estrategias.carousel-inner .active+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+      display: block;
+    }
+    .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
+    .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item,
+    .estrategias.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item+.carousel-item {
+      -webkit-transition: none;
+      transition: none;
+    }
+    .estrategias.carousel-inner .carousel-item-next,
+    .estrategias.carousel-inner .carousel-item-prev {
+      position: relative;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    .estrategias.carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+      position: absolute;
+      top: 0;
+      right: -25%;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+    /* left or forward direction */
+    .estrategias .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+    .estrategias .carousel-item-next.carousel-item-left+.carousel-item,
+    .estrategias .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
+    .estrategias .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item,
+    .estrategias .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+      position: relative;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
     /* farthest right hidden item must be abso position for animations */
-    .carousel-inner .carousel-item-prev.carousel-item-right {
+    .estrategias.carousel-inner .carousel-item-prev.carousel-item-right {
       position: absolute;
       top: 0;
       left: 0;
@@ -196,10 +158,11 @@ and (max-width:992px){
       visibility: visible;
     }
     /* right or prev direction */
-    .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
-    .carousel-item-prev.carousel-item-right+.carousel-item,
-    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
-    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
+    .estrategias .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+    .estrategias .carousel-item-prev.carousel-item-right+.carousel-item,
+    .estrategias .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
+    .estrategias .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item,
+    .estrategias .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
       position: relative;
       -webkit-transform: translate3d(100%, 0, 0);
       transform: translate3d(100%, 0, 0);
@@ -216,6 +179,9 @@ and (max-width:992px){
 
 .card-body img{
   max-width: 35px;
+}
+.card-body{
+  min-height: 200px;
 }
   .cards-title-black{
     font: 1.5em Ubuntu !important;
