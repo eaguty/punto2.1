@@ -176,7 +176,9 @@ and (min-width:1200px){
 .cuerpo{
     padding-top: 15%;
 }
-
+.cuerpo-imagenes img{
+    max-width: 40px;
+}
 .menu-link{
     padding-left: 20%;
 }

@@ -244,6 +244,7 @@ and (min-width : 1025px) {
 	.carousel-content .form-control{
 		width: 20%;
 		display : inline-block;
+		min-width: 280px;
 	}
 }
 
