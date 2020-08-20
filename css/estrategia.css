@@ -92,7 +92,7 @@ and (min-width:1200px){
 }
 
 .header-content p {
-    font: 1em Ubuntu !important;
+    font: 1.5em Ubuntu !important;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -369,8 +369,8 @@ and (max-width:1024px){
 .cuerpo-monto .btn-no-event{
     display: flex;
     justify-content: center;
-    padding-left:10%;
-    padding-right:10%;
+    padding-left:18%;
+    padding-right:18%;
 }
 
 .monto-blue {
@@ -404,7 +404,7 @@ and (max-width:1200px){
 
     }
     .cuerpo-imagenes p{
-        font-size: 2em;
+        font-size: 1.6em;
         padding-left:5%
     }
     .cuerpo-imagenes img{
@@ -418,11 +418,11 @@ and (max-width:1200px){
     }
     .cuerpo-descripcion h2{
         padding-left: 3%;
-        font-size: 1.5em;
+        font-size: 1.2em;
 
     }
     .cuerpo-leyenda p{
-        font-size:2em;
+        font-size:1.2em;
     }
     
 } 

@@ -1,10 +1,5 @@
 $(document).ready(function(){
-    "use strict";
-    // Auto-scroll
 
-    $('#myCarousel').carousel({
-        interval: false,
-      });
     /*$('#myCarousel').carousel({
       interval: 50000000
     });*/

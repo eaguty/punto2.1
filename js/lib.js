@@ -5,7 +5,7 @@ $(document).ready(function(){
         $(".nav-link").css("color", "#6A6A6A");
         $(".cuenta").css("color", "#ffffff");
         $(".navbar-brand").css("color", "#6A6A6A");
-        $("#logo").attr("src","images/logo-nav-sticky.png");
+        $("#logo").attr("src","images/logo-nav-sticky.svg");
         $(".navbar-toggler-icon").addClass('hidden');
         $("#navbar-close").removeClass('hidden');
         collapse=true;
@@ -60,7 +60,7 @@ var changeCssMenu = function(scroll, collapse) {
         $(".nav-link").css("color", "#6A6A6A");
         $(".cuenta .nav-link").css("color", "#ffffff");
         $(".navbar-brand").css("color", "#6A6A6A");
-        $("#logo").attr("src","images/logo-nav-sticky.png");
+        $("#logo").attr("src","images/logo-nav-sticky.svg");
 
 
     } else {
@@ -69,15 +69,15 @@ var changeCssMenu = function(scroll, collapse) {
             $("#menu1").css("background-color", "transparent");
             $(".nav-link").css("color", "#FFFFFF"); 
             $(".navbar-brand").css("color", "#FFFFFF");
-            $("#logo").attr("src","images/logo-nav.png");
+            $("#logo").attr("src","images/logo-nav.svg");
         }
         else{
             if(collapse){
                 $(".navbar-brand").css("color", "#FFFFFF");
-                $("#logo").attr("src","images/logo-nav-sticky.png");
+                $("#logo").attr("src","images/logo-nav-sticky.svg");
             }
             else{
-                $("#logo").attr("src","images/logo-nav.png");
+                $("#logo").attr("src","images/logo-nav.svg");
                 $("#menu1").css("background-color", "transparent");
             }
 
