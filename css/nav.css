@@ -37,6 +37,16 @@ and (max-width : 992px){
     background-color: #785994;
 }
 
+@media only screen
+and (min-width:992px)
+and (max-width:1024px){
+  .productsBtn {
+    width: 125px;
+    height: 125px;
+    font-size: 1em;
+  }
+}
+
 
 #myNav .container-fluid{
 
