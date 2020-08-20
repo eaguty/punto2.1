@@ -155,7 +155,7 @@ and (max-width : 767px) {
 	.carousel-content h1 {
 		width: 100%;
 		text-align: center;
-		font: Bold 1.25em Ubuntu !important;
+		font: Bold 2.2em Ubuntu !important;
 		letter-spacing: 0px;
 		margin:auto;
 		padding-left:5%;
@@ -192,7 +192,7 @@ and (max-width: 1024px){
 	.carousel-content h1 {
 		width: 100%;
 		text-align: center;
-		font: Bold 1.5em Ubuntu !important;
+		font: Bold 2em Ubuntu !important;
 		margin:auto;
 		padding-left:5%;
 		padding-right: 5%;
@@ -204,7 +204,7 @@ and (max-width: 1024px){
 	.carousel-content h3 {
 		width: 100%;
 		text-align: center;
-		font: 1em Ubuntu !important;
+		font: 1.5em Ubuntu !important;
 		letter-spacing: 0px;
 		color: #FFFFFF;
 		opacity: 1;
