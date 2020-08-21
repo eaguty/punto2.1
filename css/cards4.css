@@ -1,0 +1,178 @@
+/* Tablet and up */
+
+@media screen and (min-width: 768px) {
+    .estrategias .active,
+    .estrategias .active+.estrategia-item {
+      display: block;
+    }
+    .estrategias .estrategia-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .estrategias .estrategia-item.active:not(.carousel-item-right):not(.carousel-item-left)+.estrategia-item {
+      -webkit-transition: none;
+      transition: none;
+    }
+    .estrategias .carousel-item-next,
+    .estrategias .carousel-item-prev {
+      position: relative;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    .estrategias .active.estrategia-item+.estrategia-item+.estrategia-item+.estrategia-item {
+      position: absolute;
+      top: 0;
+      right: -50%;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+    /* left or forward direction */
+    .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left+.estrategia-item {
+      position: relative;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+    /* farthest right hidden item must be abso position for animations */
+    .estrategias .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+    /* right or prev direction */
+    .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right+.estrategia-item {
+      position: relative;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+    }
+  }
+  
+  /* Desktop and up */
+  
+  @media only screen and (min-width: 992px) 
+  and (max-width:1200px){
+    .estrategias .active,
+    .estrategias .active+.estrategia-item,
+    .estrategias .active+.estrategia-item+.estrategia-item {
+      display: block;
+    }
+    .estrategias .estrategia-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .estrategias .estrategia-item.active:not(.carousel-item-right):not(.carousel-item-left)+.estrategia-item,
+    .estrategias .estrategia-item.active:not(.carousel-item-right):not(.carousel-item-left)+.estrategia-item+.estrategia-item {
+      -webkit-transition: none;
+      transition: none;
+    }
+    .estrategias .carousel-item-next,
+    .estrategias .carousel-item-prev {
+      position: relative;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    .estrategias .active.estrategia-item+.estrategia-item+.estrategia-item+.estrategia-item {
+      position: absolute;
+      top: 0;
+      right: -33.3333%;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+    /* left or forward direction */
+    .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left+.estrategia-item,
+    .carousel-item-next.carousel-item-left+.estrategia-item+.estrategia-item,
+    .carousel-item-next.carousel-item-left+.estrategia-item+.estrategia-item+.estrategia-item {
+      position: relative;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+    /* farthest right hidden item must be abso position for animations */
+    .estrategias .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+    /* right or prev direction */
+    .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right+.estrategia-item,
+    .carousel-item-prev.carousel-item-right+.estrategia-item+.estrategia-item,
+    .carousel-item-prev.carousel-item-right+.estrategia-item+.estrategia-item+.estrategia-item {
+      position: relative;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .estrategias .active,
+    .estrategias .active+.estrategia-item,
+    .estrategias .active+.estrategia-item+.estrategia-item,
+    .estrategias .active+.estrategia-item+.estrategia-item+.estrategia-item {
+      display: block;
+    }
+    .estrategias .estrategia-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .estrategias .estrategia-item.active:not(.carousel-item-right):not(.carousel-item-left)+.estrategia-item,
+    .estrategias .estrategia-item.active:not(.carousel-item-right):not(.carousel-item-left)+.estrategia-item+.estrategia-item,
+    .estrategias .estrategia-item.active:not(.carousel-item-right):not(.carousel-item-left)+.estrategia-item+.estrategia-item+.estrategia-item {
+      -webkit-transition: none;
+      transition: none;
+    }
+    .estrategias .carousel-item-next,
+    .estrategias .carousel-item-prev {
+      position: relative;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    .estrategias .active.estrategia-item+.estrategia-item+.estrategia-item+.estrategia-item+.estrategia-item {
+      position: absolute;
+      top: 0;
+      right: -25%;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+    /* left or forward direction */
+    .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left+.estrategia-item,
+    .carousel-item-next.carousel-item-left+.estrategia-item+.estrategia-item,
+    .carousel-item-next.carousel-item-left+.estrategia-item+.estrategia-item+.estrategia-item,
+    .carousel-item-next.carousel-item-left+.estrategia-item+.estrategia-item+.estrategia-item+.estrategia-item {
+      position: relative;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+    /* farthest right hidden item must be abso position for animations */
+    .estrategias .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+    /* right or prev direction */
+    .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right+.estrategia-item,
+    .carousel-item-prev.carousel-item-right+.estrategia-item+.estrategia-item,
+    .carousel-item-prev.carousel-item-right+.estrategia-item+.estrategia-item+.estrategia-item,
+    .carousel-item-prev.carousel-item-right+.estrategia-item+.estrategia-item+.estrategia-item+.estrategia-item {
+      position: relative;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+    }
+  }
