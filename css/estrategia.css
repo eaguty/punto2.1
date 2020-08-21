@@ -340,16 +340,23 @@ and (max-width:1024px){
     text-align: left;
 }
 
+.cuerpo-plazo {
+    vertical-align: middle;
+    padding-left: 10%;
+    align-items: center;
+    display: flex;
+}
 .cuerpo-imagenes{
     padding-left: 10%;
     padding-top: 10%;
 }
-.cuerpo-imagenes p{
+.cuerpo-imagenes span{
     display: inline;
     text-align: left;
     letter-spacing: 0px;
     color: #393939;
     opacity: 1;
+    font: 1.2em Ubuntu;
 }
 
 .cuerpo-leyenda p{
@@ -399,13 +406,17 @@ and (max-width:1200px){
         display: none;
     }
     .cuerpo-imagenes{
-        display: flex;
         justify-content: left;
 
     }
-    .cuerpo-imagenes p{
+    .cuerpo-plazo {
+        vertical-align: middle;
+        padding-left: 0;
+        align-items: center;
+        display: flex;
+    }
+    .cuerpo-imagenes span{
         font-size: 1.6em;
-        padding-left:5%
     }
     .cuerpo-imagenes img{
         height:100%;
@@ -418,7 +429,7 @@ and (max-width:1200px){
     }
     .cuerpo-descripcion h2{
         padding-left: 3%;
-        font-size: 1.2em;
+        font-size: 1.5em;
 
     }
     .cuerpo-leyenda p{
